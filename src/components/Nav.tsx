@@ -30,7 +30,7 @@ const Nav = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2">
-          <span className={`font-montserrat font-bold text-xl ${scrolled ? 'text-forest' : 'text-white'}`}>Соловьиный край</span>
+          <span className={`font-montserrat font-bold text-xl ${scrolled ? 'text-forest' : 'text-white'}`}>Вдоль Соловьиного края</span>
         </a>
         
         {/* Desktop Navigation */}

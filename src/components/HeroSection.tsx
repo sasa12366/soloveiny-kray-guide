@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Download, ExternalLink } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/ea6a8f58-e619-4ab6-a098-8385215e1609.png')"
+          backgroundImage: "url('/lovable-uploads/96dea974-6c18-47cc-b92a-a595334efc87.png')"
         }}
       >
         <div className="hero-overlay absolute inset-0"></div>
@@ -25,7 +25,7 @@ const HeroSection = () => {
             культурные и природные достопримечательности Соловьиного края.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <a 
               href="https://www.rustore.ru/catalog/app/com.solovinyykray.solovinyykray" 
               target="_blank" 
@@ -37,10 +37,6 @@ const HeroSection = () => {
                 <span>Скачать на Android</span>
               </Button>
             </a>
-            <Button className="app-download-btn bg-white text-forest hover:bg-gray-100" disabled>
-              <ExternalLink size={20} className="mr-2" />
-              <span>Скоро на iOS</span>
-            </Button>
           </div>
         </div>
       </div>

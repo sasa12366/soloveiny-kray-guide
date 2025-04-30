@@ -48,7 +48,7 @@ const AppScreensSection = () => {
     <section id="app-screens" className="section-padding bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-forest">Интерфейс приложения</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-forest">Интерфейс приложения "Вдоль Соловьиного края"</h2>
           <p className="text-gray-700">
             Ознакомьтесь с удобным и интуитивно понятным интерфейсом приложения "Вдоль Соловьиного края". 
             Мы разработали его с учетом потребностей всех категорий пользователей.
