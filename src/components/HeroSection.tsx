@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Download } from 'lucide-react';
+import { Download, ExternalLink } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80')"
+          backgroundImage: "url('/lovable-uploads/ea6a8f58-e619-4ab6-a098-8385215e1609.png')"
         }}
       >
         <div className="hero-overlay absolute inset-0"></div>
@@ -26,13 +26,20 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <Button className="app-download-btn bg-white text-forest hover:bg-gray-100">
-              <Download size={20} className="mr-2" />
-              <span>Скачать на Android</span>
-            </Button>
-            <Button className="app-download-btn bg-white text-forest hover:bg-gray-100">
-              <Download size={20} className="mr-2" />
-              <span>Скачать на iOS</span>
+            <a 
+              href="https://www.rustore.ru/catalog/app/com.solovinyykray.solovinyykray" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="no-underline"
+            >
+              <Button className="app-download-btn bg-white text-forest hover:bg-gray-100">
+                <Download size={20} className="mr-2" />
+                <span>Скачать на Android</span>
+              </Button>
+            </a>
+            <Button className="app-download-btn bg-white text-forest hover:bg-gray-100" disabled>
+              <ExternalLink size={20} className="mr-2" />
+              <span>Скоро на iOS</span>
             </Button>
           </div>
         </div>

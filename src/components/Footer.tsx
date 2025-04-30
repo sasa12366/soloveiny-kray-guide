@@ -19,6 +19,8 @@ const Footer = () => {
               <li><a href="#hero" className="text-gray-300 hover:text-white transition-colors">Главная</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">О проекте</a></li>
               <li><a href="#features" className="text-gray-300 hover:text-white transition-colors">Особенности</a></li>
+              <li><a href="#app-screens" className="text-gray-300 hover:text-white transition-colors">Интерфейс</a></li>
+              <li><a href="#map" className="text-gray-300 hover:text-white transition-colors">Карта</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Контакты</a></li>
             </ul>
           </div>

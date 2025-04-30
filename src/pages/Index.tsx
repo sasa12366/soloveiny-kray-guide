@@ -4,6 +4,8 @@ import Nav from '@/components/Nav';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import FeaturesSection from '@/components/FeaturesSection';
+import AppScreensSection from '@/components/AppScreensSection';
+import MapSection from '@/components/MapSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import { Helmet } from 'react-helmet-async';
@@ -24,6 +26,8 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <FeaturesSection />
+        <AppScreensSection />
+        <MapSection />
         <ContactSection />
       </main>
       

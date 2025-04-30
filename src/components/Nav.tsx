@@ -21,6 +21,8 @@ const Nav = () => {
     { name: 'Главная', href: '#hero' },
     { name: 'О проекте', href: '#about' },
     { name: 'Особенности', href: '#features' },
+    { name: 'Интерфейс', href: '#app-screens' },
+    { name: 'Карта', href: '#map' },
     { name: 'Контакты', href: '#contact' },
   ];
 
@@ -28,7 +30,7 @@ const Nav = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2">
-          <span className="text-forest font-montserrat font-bold text-xl">Соловьиный край</span>
+          <span className={`font-montserrat font-bold text-xl ${scrolled ? 'text-forest' : 'text-white'}`}>Соловьиный край</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -37,7 +39,7 @@ const Nav = () => {
             <a 
               key={link.name} 
               href={link.href}
-              className="text-sm font-medium text-gray-800 hover:text-forest transition-colors"
+              className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-800 hover:text-forest' : 'text-white hover:text-gray-200'}`}
             >
               {link.name}
             </a>
@@ -45,7 +47,7 @@ const Nav = () => {
         </div>
         
         {/* Mobile Navigation Toggle */}
-        <button onClick={toggleMenu} className="md:hidden focus:outline-none">
+        <button onClick={toggleMenu} className={`md:hidden focus:outline-none ${scrolled ? 'text-gray-800' : 'text-white'}`}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
