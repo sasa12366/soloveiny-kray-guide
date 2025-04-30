@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Download } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
