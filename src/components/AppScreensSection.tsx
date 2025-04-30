@@ -63,11 +63,11 @@ const AppScreensSection = () => {
                   <div className="p-2">
                     <Card className="border-0 shadow-lg overflow-hidden">
                       <CardContent className="p-0">
-                        <div className="aspect-[9/16] relative">
+                        <div className="aspect-[9/16] relative flex items-center justify-center">
                           <img 
                             src={screen.image} 
                             alt={screen.alt} 
-                            className="object-cover w-full h-full rounded-lg"
+                            className="object-contain w-full h-full rounded-lg"
                           />
                         </div>
                       </CardContent>

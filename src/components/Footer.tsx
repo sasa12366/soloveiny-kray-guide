@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Соловьиный край</h3>
+            <h3 className="text-lg font-semibold mb-4">Вдоль Соловьиного края</h3>
             <p className="text-gray-300">
               Мобильное приложение-путеводитель по достопримечательностям Курской области
             </p>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
-          <p>&copy; {new Date().getFullYear()} Соловьиный край. Все права защищены.</p>
+          <p>&copy; {new Date().getFullYear()} Вдоль Соловьиного края. Все права защищены.</p>
         </div>
       </div>
     </footer>
