@@ -24,14 +24,11 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Загрузить приложение</h3>
-            <div className="flex flex-col space-y-3">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                Google Play
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                App Store
-              </a>
+            <h3 className="text-lg font-semibold mb-4">Контакты</h3>
+            <div className="flex flex-col space-y-3 text-gray-300">
+              <p>Овсянников Александр</p>
+              <a href="tel:+79092398739" className="hover:text-white transition-colors">+7 (909) 239-87-39</a>
+              <a href="mailto:ovsyannikovxxx@yandex.ru" className="hover:text-white transition-colors">ovsyannikovxxx@yandex.ru</a>
             </div>
           </div>
         </div>

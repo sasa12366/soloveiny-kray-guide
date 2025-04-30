@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Map, Link } from 'lucide-react';
+import { MapPin, Map, Headphones, Calendar, Users } from 'lucide-react';
 
 const FeaturesSection = () => {
   return (
@@ -24,36 +24,51 @@ const FeaturesSection = () => {
                   <MapPin className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Интерактивная карта</h3>
+                  <h3 className="text-xl font-semibold mb-2">Интерактивные карты и маршруты</h3>
                   <p className="text-gray-700">
-                    Более 100 достопримечательностей Курской области отмечены на интерактивной карте с подробными 
-                    описаниями, историческими справками и красочными фотографиями.
+                    Поиск интересных мест и построение оптимальных маршрутов до них с использованием 
+                    Google Maps. Более 100 достопримечательностей Курской области отмечены с подробными 
+                    описаниями и фотографиями.
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-sky rounded-lg p-3 mr-4">
-                  <Map className="h-6 w-6 text-white" />
+                  <Headphones className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Планирование маршрутов</h3>
+                  <h3 className="text-xl font-semibold mb-2">Аудиогиды</h3>
                   <p className="text-gray-700">
-                    Создавайте индивидуальные туристические маршруты, добавляйте понравившиеся места 
-                    в избранное и делитесь ими с друзьями и близкими.
+                    Специально разработанные аудиогиды для маломобильных граждан и всех туристов 
+                    помогут ощутить атмосферу каждого места через звуковые описания и исторические 
+                    комментарии.
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-earth rounded-lg p-3 mr-4">
-                  <Link className="h-6 w-6 text-white" />
+                  <Calendar className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Аудиогиды</h3>
+                  <h3 className="text-xl font-semibold mb-2">Афиша событий</h3>
                   <p className="text-gray-700">
-                    Специально разработанные аудиогиды для маломобильных граждан помогут 
-                    ощутить атмосферу каждого места через звуковые описания и исторические комментарии.
+                    Всегда актуальная информация о культурных мероприятиях, фестивалях и 
+                    событиях Курской области с возможностью добавления в личный календарь.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="bg-forest-light rounded-lg p-3 mr-4">
+                  <Users className="h-6 w-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">Пользовательский контент</h3>
+                  <p className="text-gray-700">
+                    Возможность для пользователей добавлять новые места и достопримечательности, 
+                    делиться своими впечатлениями и рекомендациями с другими путешественниками.
                   </p>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Facebook, Instagram } from 'lucide-react';
+import { Facebook, Instagram, Phone, Mail } from 'lucide-react';
 
 const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -59,16 +59,16 @@ const ContactSection = () => {
               
               <div className="space-y-4">
                 <div>
-                  <p className="font-medium text-gray-900">Адрес</p>
-                  <p className="text-gray-700">г. Курск, ул. Ленина, 123</p>
+                  <p className="font-medium text-gray-900">Контактное лицо</p>
+                  <p className="text-gray-700">Овсянников Александр</p>
                 </div>
-                <div>
-                  <p className="font-medium text-gray-900">Телефон</p>
-                  <p className="text-gray-700">+7 (4712) 12-34-56</p>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-forest mr-2" />
+                  <p className="text-gray-700">+7 (909) 239-87-39</p>
                 </div>
-                <div>
-                  <p className="font-medium text-gray-900">Email</p>
-                  <p className="text-gray-700">info@soloviny-kray.ru</p>
+                <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-forest mr-2" />
+                  <p className="text-gray-700">ovsyannikovxxx@yandex.ru</p>
                 </div>
               </div>
             </div>
@@ -77,10 +77,10 @@ const ContactSection = () => {
               <h3 className="text-xl font-semibold mb-4 text-forest">Мы в социальных сетях</h3>
               <div className="flex space-x-4">
                 <a href="#" className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors" aria-label="Facebook">
-                  <Facebook />
+                  <Facebook className="h-6 w-6 text-forest" />
                 </a>
                 <a href="#" className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors" aria-label="Instagram">
-                  <Instagram />
+                  <Instagram className="h-6 w-6 text-forest" />
                 </a>
               </div>
             </div>
