@@ -22,6 +22,7 @@ const Nav = () => {
     { name: 'О проекте', href: '#about' },
     { name: 'Особенности', href: '#features' },
     { name: 'Интерфейс', href: '#app-screens' },
+    { name: 'Команда', href: '#team' },
     { name: 'Карта', href: '#map' },
     { name: 'Контакты', href: '#contact' },
   ];
