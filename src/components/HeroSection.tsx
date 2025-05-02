@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/96dea974-6c18-47cc-b92a-a595334efc87.png')"
+          backgroundImage: "url('/lovable-uploads/hero.png')"
         }}
       >
         <div className="hero-overlay absolute inset-0"></div>
