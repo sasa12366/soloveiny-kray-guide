@@ -7,6 +7,7 @@ import FeaturesSection from '@/components/FeaturesSection';
 import AppScreensSection from '@/components/AppScreensSection';
 import MapSection from '@/components/MapSection';
 import ContactSection from '@/components/ContactSection';
+import TeamSection from '@/components/TeamSection';
 import Footer from '@/components/Footer';
 import { Helmet } from 'react-helmet-async';
 
@@ -27,6 +28,7 @@ const Index = () => {
         <AboutSection />
         <FeaturesSection />
         <AppScreensSection />
+        <TeamSection />
         <MapSection />
         <ContactSection />
       </main>
