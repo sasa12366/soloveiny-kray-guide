@@ -13,13 +13,13 @@ const TeamSection = () => {
     {
       id: 2,
       name: 'Овсянников Александр Владимирович',
-      photo: '/lovable-uploads/81c0d43b-b2bd-4b78-bd4e-48eca7f2590e.png',
+      photo: '/lovable-uploads/team2.png',
       initials: 'ОАВ',
     },
     {
       id: 3,
       name: 'Ноздрачёва Ульяна Дмитриевна',
-      photo: '/lovable-uploads/f852cdf6-0f3f-4113-9716-50c5aeb45bb4.png',
+      photo: '/lovable-uploads/team3.png',
       initials: 'НУД',
     },
   ];
@@ -33,7 +33,7 @@ const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div 
               key={member.id} 
-              className={`flex flex-col items-center p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow ${index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}`}
+              className={`flex flex-col items-center p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow `}
             >
               <div className="mb-4 w-full h-64 overflow-hidden rounded-lg">
                 <img 

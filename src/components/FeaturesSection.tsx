@@ -79,14 +79,14 @@ const FeaturesSection = () => {
             <div className="relative">
               <div className="rounded-xl overflow-hidden shadow-2xl border-8 border-white transform rotate-3 hover:rotate-0 transition-all duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80" 
+                  src="/lovable-uploads/dos2.png" 
                   alt="Курская природа" 
                   className="w-full h-auto"
                 />
               </div>
               <div className="absolute -bottom-10 -left-10 rounded-xl overflow-hidden shadow-2xl border-8 border-white w-3/4 transform -rotate-6 hover:rotate-0 transition-all duration-300 hidden md:block">
                 <img 
-                  src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80" 
+                   src="/lovable-uploads/dos1.png" 
                   alt="Достопримечательности Курской области" 
                   className="w-full h-auto"
                 />
