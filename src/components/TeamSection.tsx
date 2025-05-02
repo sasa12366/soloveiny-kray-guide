@@ -7,7 +7,7 @@ const TeamSection = () => {
     {
       id: 1,
       name: 'Старосельцев Олег Владимирович',
-      photo: '/lovable-uploads/f6443dd9-f2ee-4392-89e0-60d8ff6e6095.png',
+      photo: '/lovable-uploads/team1.png',
       initials: 'СОВ',
     },
     {
