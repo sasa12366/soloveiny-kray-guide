@@ -56,7 +56,7 @@ const AppScreensSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Carousel className="w-full">
+          <Carousel className="w-full" opts={{ loop: true }}>
             <CarouselContent>
               {appScreens.map((screen) => (
                 <CarouselItem key={screen.id} className="md:basis-1/2 lg:basis-1/3">
