@@ -30,10 +30,10 @@ const TeamSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Наша команда</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {teamMembers.map((member) => (
+          {teamMembers.map((member, index) => (
             <div 
               key={member.id} 
-              className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              className={`flex flex-col items-center p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow ${index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}`}
             >
               <div className="mb-4 w-full h-64 overflow-hidden rounded-lg">
                 <img 
