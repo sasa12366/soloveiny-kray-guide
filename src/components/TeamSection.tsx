@@ -5,22 +5,25 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const TeamSection = () => {
   const teamMembers = [
     {
+      
       id: 1,
-      name: 'Старосельцев Олег Владимирович',
-      photo: '/lovable-uploads/team1.png',
-      initials: 'СОВ',
-    },
-    {
-      id: 2,
       name: 'Овсянников Александр Владимирович',
       photo: '/lovable-uploads/team2.png',
       initials: 'ОАВ',
+      
     },
     {
-      id: 3,
+      id: 2,
       name: 'Ноздрачёва Ульяна Дмитриевна',
       photo: '/lovable-uploads/team3.png',
       initials: 'НУД',
+      
+    },
+    {
+      id: 3,
+      name: 'Старосельцев Олег Владимирович',
+      photo: '/lovable-uploads/team1.png',
+      initials: 'СОВ',
     },
   ];
 
