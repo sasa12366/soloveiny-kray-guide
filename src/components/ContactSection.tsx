@@ -40,17 +40,7 @@ const ContactSection = () => {
                   </div>
                 </div>
                 
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-forest">Мы в социальных сетях</h3>
-                  <div className="flex justify-center space-x-4">
-                    <a href="#" className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors" aria-label="Facebook">
-                      <Facebook className="h-6 w-6 text-forest" />
-                    </a>
-                    <a href="#" className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors" aria-label="Instagram">
-                      <Instagram className="h-6 w-6 text-forest" />
-                    </a>
-                  </div>
-                </div>
+
               </div>
             </CardContent>
           </Card>
