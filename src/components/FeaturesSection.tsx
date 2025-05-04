@@ -86,8 +86,26 @@ const FeaturesSection = () => {
               </div>
               <div className="absolute -bottom-10 -left-10 rounded-xl overflow-hidden shadow-2xl border-8 border-white w-3/4 transform -rotate-6 hover:rotate-0 transition-all duration-300 hidden md:block">
                 <img 
-                   src="/lovable-uploads/dos1.png" 
+                  src="/lovable-uploads/dos1.png" 
                   alt="Достопримечательности Курской области" 
+                  className="w-full h-auto"
+                />
+              </div>
+              
+              {/* First new animated photo */}
+              <div className="absolute -top-12 -right-12 rounded-xl overflow-hidden shadow-2xl border-8 border-white w-2/3 transform rotate-6 hover:rotate-0 transition-all duration-300 hidden md:block">
+                <img 
+                  src="/lovable-uploads/f6443dd9-f2ee-4392-89e0-60d8ff6e6095.png" 
+                  alt="Исторические места Курской области" 
+                  className="w-full h-auto"
+                />
+              </div>
+              
+              {/* Second new animated photo */}
+              <div className="absolute top-1/2 -right-8 rounded-xl overflow-hidden shadow-2xl border-8 border-white w-1/2 transform -rotate-8 hover:rotate-0 transition-all duration-500 hover:scale-110 hidden md:block animate-fade-in">
+                <img 
+                  src="/lovable-uploads/ea6a8f58-e619-4ab6-a098-8385215e1609.png" 
+                  alt="Соловьиный край" 
                   className="w-full h-auto"
                 />
               </div>
