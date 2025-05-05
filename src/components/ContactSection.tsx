@@ -27,7 +27,7 @@ const ContactSection = () => {
                   <div className="space-y-4">
                     <div>
                       <p className="font-medium text-gray-900">Контактное лицо</p>
-                      <p className="text-gray-700">Ноздрачев Дмитрий Евгеньевич</p>
+                      <p className="text-gray-700">Овсянников Александр Владимирович</p>
                     </div>
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 text-forest mr-2" />

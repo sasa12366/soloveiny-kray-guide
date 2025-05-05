@@ -8,7 +8,7 @@ const TeamSection = () => {
     {
       id: 4,
       name: 'Ноздрачев Дмитрий Евгеньевич',
-      photo: '/lovable-uploads/c2dc7a97-201c-44f4-89c2-0b7fa57d923f.png',
+      photo: '/lovable-uploads/team4.png',
       initials: 'НДЕ',
       role: 'Администратор проекта'
     },
