@@ -27,7 +27,7 @@ const ContactSection = () => {
                   <div className="space-y-4">
                     <div>
                       <p className="font-medium text-gray-900">Контактное лицо</p>
-                      <p className="text-gray-700">Овсянников Александр</p>
+                      <p className="text-gray-700">Ноздрачев Дмитрий Евгеньевич</p>
                     </div>
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 text-forest mr-2" />
@@ -39,8 +39,6 @@ const ContactSection = () => {
                     </div>
                   </div>
                 </div>
-                
-
               </div>
             </CardContent>
           </Card>
