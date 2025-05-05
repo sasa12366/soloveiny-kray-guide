@@ -2,13 +2,18 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Map, MapPin } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const MapSection = () => {
+  const isMobile = useIsMobile();
+  
   return (
     <section id="map" className="section-padding bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-forest">Карта достопримечательностей</h2>
+          <h2 className="text-2xl md:text-4xl font-bold mb-6 text-forest">
+            {isMobile ? 'Карта' : 'Карта достопримечательностей'}
+          </h2>
           <p className="text-gray-700">
             Исследуйте интерактивную карту Курской области с отмеченными достопримечательностями и 
             маршрутами. Приложение поможет вам спланировать идеальное путешествие по Соловьиному краю.
