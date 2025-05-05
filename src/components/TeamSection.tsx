@@ -46,12 +46,12 @@ const TeamSection = () => {
               key={member.id} 
               className="flex flex-col items-center p-6 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="mb-4 relative w-48 h-32 overflow-hidden rounded-lg border-4 border-forest-light">
+              <div className="mb-4 relative w-full h-64 overflow-hidden rounded-lg border-4 border-forest-light">
                 {member.photo ? (
                   <img 
                     src={member.photo} 
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 ) : (
                   <Avatar className="w-full h-full">
