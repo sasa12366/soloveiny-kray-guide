@@ -6,6 +6,13 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 const TeamSection = () => {
   const teamMembers = [
     {
+      id: 4,
+      name: 'Ноздрачев Дмитрий Евгеньевич',
+      photo: '/lovable-uploads/c2dc7a97-201c-44f4-89c2-0b7fa57d923f.png',
+      initials: 'НДЕ',
+      role: 'Администратор проекта'
+    },
+    {
       id: 1,
       name: 'Овсянников Александр Владимирович',
       photo: '/lovable-uploads/team2.png',
@@ -26,13 +33,6 @@ const TeamSection = () => {
       initials: 'СОВ',
       role: 'Звукорежиссер, композитор'
     },
-    {
-      id: 4,
-      name: 'Ноздрачев Дмитрий Евгеньевич',
-      photo: '/lovable-uploads/c2dc7a97-201c-44f4-89c2-0b7fa57d923f.png',
-      initials: 'НДЕ',
-      role: 'Администратор проекта'
-    },
   ];
 
   return (
@@ -46,7 +46,7 @@ const TeamSection = () => {
               key={member.id} 
               className="flex flex-col items-center p-6 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="mb-4 relative w-40 h-40 overflow-hidden rounded-full border-4 border-forest-light">
+              <div className="mb-4 relative w-40 h-40 overflow-hidden rounded-lg border-4 border-forest-light">
                 {member.photo ? (
                   <img 
                     src={member.photo} 
